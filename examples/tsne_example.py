@@ -1,7 +1,7 @@
 """A quick example using the T-SNE plotter on some digits data"""
 
 from sklearn import datasets
-from usualsupects import Quick2DTSNE
+from usualsuspects import Quick2DTSNE
 
 digits  = datasets.load_digits(n_class = 7)
 X = digits.data
