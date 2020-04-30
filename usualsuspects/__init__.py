@@ -1,1 +1,1 @@
-from tsne import Quick2DTSNE
+from .tsne import Quick2DTSNE
