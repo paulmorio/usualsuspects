@@ -6,7 +6,6 @@ from sklearn import manifold
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-from utils import rand_cmap
 
 class Quick2DTSNE(object):
 	def __init__(self, X, y, perplexity, initialisation="pca", n_jobs=-1):
@@ -64,10 +63,11 @@ class Quick2DTSNE(object):
 		x_min, x_max = np.min(self.embeddings,0), np.max(self.embeddings,0)
 		embs_to_plot = (self.embeddings-x_min) / (x_max-x_min)
 
-		if y == None:
-			plt.scatter(embs_to_plot[:,0], embs_to_plot[:,1])
+		# Check if class labels have been given for colouring
+		if len(self.y)==self.X.shape[0] or len(self.y)==self.X.shape[1]: # we dont know which dimension refers to the samples
+			plt.scatter(embs_to_plot[:,0], embs_to_plot[:,1], c=self.y)
 		else:
-			plt.scatter(embs_to_plot[:,0], embs_to_plot[:,1], c=y)
+			plt.scatter(embs_to_plot[:,0], embs_to_plot[:,1])
 			
 		plt.title(title)
 		plt.savefig(save_to)
