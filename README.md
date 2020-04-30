@@ -1,7 +1,5 @@
 # usualsuspects
-Some personal tools I have made for making visualisations and other figures that pop up in ML papers all the time.
-
-It is also primarily a testbed for practicing Python packaging as a minimal useful package that id updated regularly.
+The repo contains a small set of tools to create visualisations I constantly find inside of ML papers. It is also primarily a personal testbed for practicing software engineering practices and the whole PyPI/RTD/Github/CI ecosystem.
 
 If you find any of the tools useful please consider leaving a star on the repo or contributing!
 
@@ -20,3 +18,6 @@ pip install -e .
 ```
 
 This will allow you to adapt the source code to your liking and the changes will take effect immediately.
+
+## Contributing
+TODO. Will set this up after CI is set up.
