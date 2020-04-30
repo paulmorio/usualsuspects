@@ -1,5 +1,6 @@
 # Files created in testing module runs
 usualsuspects/*.png
+examples/*.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
