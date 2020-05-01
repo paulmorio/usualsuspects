@@ -13,7 +13,7 @@ setup(
     author="Paul Scherer",
     author_email="paul.geo2dr@gmail.com",
     license="MIT",
-    install_requires=['numpy', 'scikit-learn', 'tqdm'],
+    install_requires=['numpy', 'scikit-learn', 'tqdm', 'matplotlib'],
     packages=find_packages(),
     classifiers=['Topic :: Scientific/Engineering :: Artificial Intelligence',
                  'License :: OSI Approved :: MIT License',
