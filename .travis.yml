@@ -4,12 +4,12 @@ langauge: python
 virtualenv:
   system_site_packages: true
 python:
-- '3.6'
+  - '3.6'
 install:
-- pip install -e .
+  - pip install -e .
 script: pytest
-after_script: cd ~
-after_success:
-  # Upload coverage data to codecov
+after_script: 
+  - cd ~
   - codecov
-  bash <(curl -s https://codecov.io/bash)
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
