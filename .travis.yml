@@ -12,3 +12,4 @@ after_script: cd ~
 after_success:
   # Upload coverage data to codecov
   - codecov
+  bash <(curl -s https://codecov.io/bash)
