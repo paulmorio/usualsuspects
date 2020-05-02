@@ -1,9 +1,10 @@
 # usualsuspects
 
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Documentation Status](https://readthedocs.org/projects/usualsuspects/badge/?version=latest)](https://usualsuspects.readthedocs.io/en/latest/?badge=latest)
 ![PyPI](https://img.shields.io/pypi/v/usualsuspects)
 ![PyPI - License](https://img.shields.io/pypi/l/usualsuspects)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Build Status](https://travis-ci.org/paulmorio/usualsuspects.svg?branch=master)](https://travis-ci.org/paulmorio/usualsuspects)
+[![Documentation Status](https://readthedocs.org/projects/usualsuspects/badge/?version=latest)](https://usualsuspects.readthedocs.io/en/latest/?badge=latest)
 
 The repo contains a small set of tools to create visualisations I constantly find inside of ML papers. It is also primarily a personal testbed for practicing software engineering practices and the whole PyPI/RTD/Github/CI ecosystem.
 
