@@ -5,6 +5,7 @@
 [![Documentation Status](https://readthedocs.org/projects/usualsuspects/badge/?version=latest)](https://usualsuspects.readthedocs.io/en/latest/?badge=latest)
 ![PyPI](https://img.shields.io/pypi/v/usualsuspects)
 ![PyPI - License](https://img.shields.io/pypi/l/usualsuspects)
+![Codecov](https://img.shields.io/codecov/c/github/paulmorio/usualsuspects)
 
 
 The repo contains a small set of tools to create visualisations I constantly find inside of ML papers. It is also primarily a personal testbed for practicing software engineering practices and the whole PyPI/RTD/Github/CI ecosystem.
