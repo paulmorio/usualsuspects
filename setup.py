@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name="usualsuspects",
-    version='0.1.1',
+    version='0.2.1',
     description="Some quick tools for generating visualisations that pop up in ML papers all the time",
     long_description=long_description,
     long_description_content_type="text/markdown",
